@@ -7,6 +7,8 @@
     <!-- Linking -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/home.css">
+    <script src="https://kit.fontawesome.com/cc4b0d0a96.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
@@ -18,16 +20,29 @@
                     <h1>PIZZERIA</h1>
                 </div>
                 <div class="navigation">
-                    <a href="#home">Home</a>
+                    <a href="index.html">Home</a>
                     <a href="#about">About</a>
-                    <a href="#">Menu</a>
-                    <a href="#">Contact</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="#contact">Contact</a>
                 </div>
+                <!-- <div class="hambuger">
+                    <div class="links1"></div>
+                    <div class="links2"></div>
+                    <div class="links3"></div>
+                </div> -->
             </nav>
             <section>
                 <div class="hero">
-                    <img src="./Assets/tasty-pepperoni-pizza-cooking-ingredients-260nw-1233657130.jpg" alt="" class="responsive" height="400">
-                    <h1 class="headline">WELCOME TO PIZZERIA</h1>
+                    <img src="./Assets/banner01.jpg" alt="" class="responsive">
+                    <div class="headline">
+                        <h2 class="headtag">WELCOME TO </h2>
+                        <h1>PIZZERIA</h1>
+                        <p>Order the yummiest and <br>
+                             tasty pizza to satisfy your mouth.</p>
+                        <div class="button">
+                            <a href="menu.html" target="_blank"><input type="button" value="Order Now"></a>
+                        </div>
+                    </div>        
                 </div>
             </section>
         </header>
@@ -39,8 +54,47 @@
     <!-- ABOUT SECTION -->
     <div class="container about" id="about">
         <h1>About</h1>
-        <div class="image">
-            <img src="./Assets/psd.gif" alt="" class="responsive">
+        <div class="section1">
+            <div class="image">
+                <img src="./Assets/462773.jpg" alt="" class="responsive">
+            </div>
+            <div class="text-center text">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos sequi accusantium numquam totam maiores eos quas atque. Neque, harum quidem?</p>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT SECTION -->
+
+    <!-- CONTACT SECTION -->
+    <div class="container-full contact">
+        <h1>CONTACT US</h1>
+        <div class="clogo">
+            <a href="#home">PIZZERIA</a>
+        </div>
+        <div class="info">
+            <h3>For more info</h3>
+            <a href="#home">Get Help</a>
+            <a href="#home">Sign Up to deliver</a>
+            <a href="#home">Save on your first order</a>
+        </div>
+        <div class="feedback">
+            <input type="email" placeholder="Email..." id="email">
+            <button type="submit">Send</button>
+        </div>
+        <div class="social">
+            <h3>Social Media</h3>
+            <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/home?lang=en" target="_blank" class="social-icon">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://github.com/" target="_blank" class="social-icon">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
         </div>
     </div>
 

@@ -1,10 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /* GENERAL STYLING */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 /* END OF GENERAL STYLING */
 
@@ -26,6 +27,7 @@ nav{
     justify-self: end;
 }
 .navigation a {
+    list-style: none;
     text-decoration: none;
     font-size: 25px;
     font-weight: 500;
@@ -37,6 +39,33 @@ nav{
     border-bottom: 4px solid crimson;
 
 }
+.hamburger{
+    margin-left: 30px;
+    display: none;
+}
+.hamburger div {
+    width: 25px;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px;
+}
+/* @media screen and (max-width:1824px){
+    .navigation a {
+       width: 40%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .navigation a {
+        position: absolute;
+        right: 0px;
+        height: 90vh;
+        top: 10vh;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+    }
+} */
 /* END OF NAV STYLING */
 
 /* HOME STYLING */
@@ -46,7 +75,7 @@ nav{
     left: 0;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to left, #ba7453, #d1a984);
+    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
     z-index: -1;
 }
 
@@ -69,12 +98,20 @@ section {
 }
 .headline {
     position: absolute;
+    text-align: center;
     top: 60%;
-    left: 25%;
+    left: 10%;
     font-size: 60px;
     transform: translate(70%, -70%);
     color: #fff;
     z-index: 3;
+}
+.headline h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.headline p {
+    font-size: 20px;
 }
 .hero::after{
     content: "";
@@ -86,14 +123,52 @@ section {
     left: 0;
     top: 0;
 }
+a input{
+    border: none;
+    background-image: linear-gradient(-20deg, #ff9a44 0%,#fc6076 100% );
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    border-radius: 30px;
+}
+a input:hover {
+    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+    color: white;
+}
 /* END OF HOME STYLING */
 
 /* ABOUT STYLING */
+.section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2rem;
+}
 .about h1 {
     text-align: center;
     margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+.image {
+    background-image: linear-gradient(-20deg, #ff9a44 0%,#fc6076 100% );
+    padding: 2rem;
 }
 .responsive {
     width: 100%;
     height: auto;
 }
+.text {
+    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+    padding: 2rem;
+    margin-left: 2rem;
+}
+.text p{
+    margin-top: 8rem;
+}
+
+/* ABOUT STYLING */
+
+/* CONTACT STYLING */
+
