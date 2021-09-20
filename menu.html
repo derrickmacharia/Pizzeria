@@ -7,6 +7,7 @@
     <!-- Linking -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/menu.css">
+    <script src="https://kit.fontawesome.com/cc4b0d0a96.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!-- End Of linking -->
     <title>Menu</title>
@@ -22,13 +23,68 @@
             <a href="menu.html">Menu</a>
             <a href="index.html">Contact</a>
         </div>
-        <!-- <div class="hambuger">
+        <div class="hambuger">
             <div class="links1"></div>
             <div class="links2"></div>
             <div class="links3"></div>
-        </div> -->
+        </div>
     </nav>
-
+    <div class="container menu">
+        <h1>ORDER HERE</h1>
+        <div class="row">
+            <div class="variety">
+                <label for="flavour">Choose A Flavour</label>
+                <select class="form-select col-md-4" aria-label="Default select example">
+                    <option selected>Choose Prefered Pizza</option>
+                    <option value="1">Chesse Pizza</option>
+                    <option value="2">Veggie Pizza</option>
+                    <option value="3">Pepperoni Pizza</option>
+                    <option value="4">Margherita Pizza</option>
+                    <option value="5">Buffalo Pizza</option>
+                    <option value="6">Hawaiian Pizza</option>
+                </select>
+            </div>
+            <div class="size">
+                <label for="size">Pick A Size</label>
+                <select class="form-select col-md-4" aria-label="Default select example">
+                    <option selected>Pick A Size</option>
+                    <option value="1">Small @Ksh280</option>
+                    <option value="2">Medium @Ksh280</option>
+                    <option value="3">Large @Ksh280</option>
+                </select>
+            </div>
+            <div class="type">
+                <label for="crust">Choose Prefered Crust</label>
+                <select class="form-select col-md-4" aria-label="Default select example">
+                    <option selected>Size Of Crust</option>
+                    <option value="1">Crispy @Ksh280</option>
+                    <option value="2">Stuffed @Ksh250</option>
+                    <option value="3">Gluten-free @Ksh230</option>
+                </select>
+            </div>
+            <div class="toppings">
+                <label for="toppings">Select Toppings @Ksh 50 each</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Bacon
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Mushrooms
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Sausage
+                    </label>
+                  </div>
+            </div>
+        </div>
+    </div>
     <script src="js/menu.js"></script>
 </body>
 </html>

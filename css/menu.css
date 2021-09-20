@@ -3,3 +3,67 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.hamburger{
+    margin-left: 30px;
+    display: none;
+}
+.hamburger div {
+    width: 25px;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px;
+}
+
+@media screen and (max-width:1824px){
+    .navigation a {
+       width: 40%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .navigation a {
+        position: absolute;
+        right: 0px;
+        height: 90vh;
+        top: 10vh;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.size {
+    margin-bottom: 2rem;
+}
+.size select{
+    width: 30rem;
+    background-color: crimson;
+}
+.size select option{
+    background: rgba(33, 33, 33, 1);
+    color: #fff;
+}
+.type {
+    margin-bottom: 2rem;
+}
+.type select{
+    width: 30rem;
+    background-color: crimson;
+}
+.type select option {
+    background: rgba(33, 33, 33, 1);
+    color: #fff;
+}
+.variety{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.variety select{
+    width: 30rem;
+    background-color: crimson;
+}
+.variety select option {
+    background: rgba(33, 33, 33, 1);
+    color: #fff;
+}

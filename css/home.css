@@ -142,8 +142,6 @@ a input:hover {
 
 /* ABOUT STYLING */
 .section1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     margin-bottom: 2rem;
 }
 .about h1 {
@@ -162,7 +160,6 @@ a input:hover {
 .text {
     background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
     padding: 2rem;
-    margin-left: 2rem;
 }
 .text p{
     margin-top: 8rem;
@@ -172,3 +169,36 @@ a input:hover {
 
 /* CONTACT STYLING */
 
+.contacts{
+    background-color: peachpuff;
+}
+.contacts h1{
+    text-align: center;
+    margin: 2rem;
+    padding-top: 2rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.info a{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.social a{
+    color: crimson;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.social a i{
+    font-size: 30px;
+}
