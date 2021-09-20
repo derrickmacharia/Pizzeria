@@ -14,24 +14,32 @@ function baconValue(){
   if(bacon.checked === true){
     baconType = 50
   }
-  console.log(baconType)
+  // console.log(baconType)
   return parseInt(baconType)
 };
 function mushroomValue(){
-  var mushroomtype = 0;
+  var mushroomType = 0;
   var mushroom = document.getElementById("mushroom");
   if(mushroom.checked === true){
     mushroomType = 50
   }
-  console.log(mushroomType)
+  // console.log(mushroomType)
   return parseInt(mushroomType)
 };
 function sausageValue(){
-  var sausagetype = 0;
+  var sausageType = 0;
   var sausage = document.getElementById("sausage");
   if(sausage.checked === true){
     sausageType = 50
-  }
-  console.log(sausageType)
+  };
+  // console.log(sausageType)
   return parseInt(sausageType)
+};
+function amountNumber(){
+  var number = document.getElementById("amount").value;
+  return parseInt(number)
+};
+function calculation(){
+  var total = (sizeValue()+crustValue()+baconValue()+mushroomValue()+sausageValue())*amountNumber();
+  document.getElementById("display").innerHTML = "Hi your total value is" + total
 };
