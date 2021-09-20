@@ -29,6 +29,36 @@
             <div class="links3"></div>
         </div>
     </nav>
+    <div class="container images">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./Assets/cheese pizza.webp" alt="" class="responsive">
+                <h4>Cheese Pizza</h4>
+            </div>
+            <div class="col-md-4">
+                <img src="./Assets/buffalo pizza.webp" alt="" class="responsive">
+                <h4>Buffalo Pizza</h4>
+            </div>
+            <div class="col-md-4">
+                <img src="./Assets/magherita pizza.webp" alt="" class="responsive">
+                <h4>Magherita Pizza</h4>
+            </div>
+        </div>
+        <div class="row patr2">
+            <div class="col-md-4">
+                <img src="./Assets/meat pizza.webp" alt="" class="responsive">
+                <h4>Meat Pizza</h4>
+            </div>
+            <div class="col-md-4">
+                <img src="./Assets/pepperoni pizza.webp" alt="" class="responsive">
+                <h4>Pepperoni Pizza</h4>
+            </div>
+            <div class="col-md-4">
+                <img src="./Assets/hawaiian.webp" alt="" class="responsive">
+                <h4>Hawaiian Pizza</h4>
+            </div>
+        </div>
+    </div>
     <div class="container menu">
         <h1>ORDER HERE</h1>
         <div class="row">
@@ -87,9 +117,13 @@
                     <input type="number" id="amount">
                 </div>
             </div>
-            <div class="button">
+            <div class="button col-md-3">
             <input type="button" value="Get Now" class="getnow" onclick="calculation();">
             </div>
+            <div class="button delivery">
+                <label for="delivery">For delivery cost @ Ksh200</label>
+                <input type="button" value="Delivery" class="getnow">
+                </div>
             <p id="display"></p>
         </div>
     </div>

@@ -33,6 +33,13 @@
         align-items: center;
     }
 } */
+.images {
+    margin-top: 2rem;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
 .menu {
     padding: 2rem;
     border-radius: 30px;
