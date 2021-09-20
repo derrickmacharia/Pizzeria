@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-
+/* 
 .hamburger{
     margin-left: 30px;
     display: none;
@@ -32,12 +32,16 @@
         flex-direction: column;
         align-items: center;
     }
-}
+} */
 .menu {
     padding: 2rem;
     border-radius: 30px;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     background-color: bisque;
+}
+.menu h1{
+    text-align: center;
 }
 .size {
     margin-bottom: 2rem;
@@ -45,10 +49,13 @@
 .size select{
     width: 30rem;
     background-color: crimson;
+    padding: 15px;
 }
 .size select option{
     background: rgba(33, 33, 33, 1);
     color: #fff;
+    font-size: 15px;
+    font-weight: 20px;
 }
 .type {
     margin-bottom: 2rem;
@@ -56,10 +63,13 @@
 .type select{
     width: 30rem;
     background-color: crimson;
+    padding: 15px;
 }
 .type select option {
     background: rgba(33, 33, 33, 1);
     color: #fff;
+    font-size: 15px;
+    font-weight: 20px;
 }
 .variety{
     margin-top: 2rem;
@@ -68,10 +78,13 @@
 .variety select{
     width: 30rem;
     background-color: crimson;
+    padding: 15px;
 }
 .variety select option {
     background: rgba(33, 33, 33, 1);
     color: #fff;
+    font-size: 15px;
+    font-weight: 20px;
 }
 .button{
     margin: 1rem;
@@ -81,5 +94,10 @@
     border-radius: 10px;
     color: #fff;
     background-color: crimson;
-    border: none;
+    border: transparent;
+}
+.button input:hover{
+    background-color: transparent;
+    border: 3px solid crimson;
+    color: crimson;
 }

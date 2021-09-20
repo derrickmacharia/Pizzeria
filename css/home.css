@@ -180,7 +180,6 @@ a input:hover {
 .info{
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
 }
 .info a{
     list-style: none;
