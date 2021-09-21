@@ -43,3 +43,32 @@ function calculation(){
   var total = (sizeValue()+crustValue()+baconValue()+mushroomValue()+sausageValue())*amountNumber();
   document.getElementById("display").innerHTML = "Hi your total value is" + total
 };
+
+$(document).ready(function(){
+  $(".delivery").click(function(){
+    $(".formsection").show();
+    $(".delivery").hide();
+  });
+});
+
+$(document).ready(function(){
+  $("#delivery-form").submit(function(event){
+    event.preventDefault();
+    var name = $("#name-input").val();
+    var number = $("#number-input").val();
+    var location = $("#location-input").val();
+    
+    if ($("#name-input").val() && $("#location-input").val()) {
+        alert(name + " We have received your order!.It will be delivered in the next 20 minutes!");
+    } else {
+        alert("Please enter valid name");
+    }
+  });
+});
+
+$(document).ready(function(){
+  $(".gtotal").click(function(){
+    $(".dmessage").show();
+    $("#delivery-form").hide();
+  });
+});

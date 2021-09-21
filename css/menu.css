@@ -108,3 +108,9 @@
     border: 3px solid crimson;
     color: crimson;
 }
+.formsection{
+    display: none;
+}
+.dmessage{
+    display: none;
+}
