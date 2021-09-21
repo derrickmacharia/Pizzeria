@@ -39,33 +39,6 @@ nav{
     border-bottom: 4px solid crimson;
 
 }
-.hamburger{
-    margin-left: 30px;
-    display: none;
-}
-.hamburger div {
-    width: 25px;
-    height: 5px;
-    background-color: #fff;
-    margin: 5px;
-}
-/* @media screen and (max-width:1824px){
-    .navigation a {
-       width: 40%;
-    }
-}
-
-@media screen and (max-width:768px){
-    .navigation a {
-        position: absolute;
-        right: 0px;
-        height: 90vh;
-        top: 10vh;
-        background-color: black;
-        flex-direction: column;
-        align-items: center;
-    }
-} */
 /* END OF NAV STYLING */
 
 /* HOME STYLING */
@@ -174,7 +147,8 @@ a input:hover {
 }
 .contacts h1{
     text-align: center;
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     padding-top: 2rem;
 }
 .info{
@@ -190,7 +164,7 @@ a input:hover {
 .social{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .social a{
     color: crimson;
